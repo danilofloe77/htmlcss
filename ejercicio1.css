@@ -1,0 +1,50 @@
+.main_cont{
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid gray ;
+}
+
+.main_cont_secti{
+    height: 120vh;
+    width: 50%;
+}
+
+.main_cont_secti_img1 img{
+    width: 100px;
+    height: 50px;
+}
+.main_cont_secti_img1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.main_cont_secti_img2 img {
+   max-width: 99%;
+   max-height: 80%;
+   
+}
+
+.main_cont_secti_img2 , .main_cont_secti_img1{
+    margin: 16px 0px;
+   
+}
+.main_cont_secti_img2 figcaption{
+    text-align: center;
+}
+
+
+.main_cont_link{
+    width: 280px;
+    border:solid 2px orange;
+    background-color: yellow;
+    letter-spacing: 5px;
+    height: 55px;
+    align-self: center;
+}
+.button_fasti{
+    display: flex;
+    justify-content: center;
+}

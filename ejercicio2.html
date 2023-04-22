@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO CHINGON</title>
+    <link rel="stylesheet" href="ejericicio2.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario de Registro</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, enim?</p>
+    </header>
+    <main class="main_cont">
+        <form class="main_cont_form">
+            <label for="name" class="main_cont_form_label">Name </label>
+            <input id="name" type="text" placeholder="Escribe tu nombre" required> 
+
+            <label for="email" class="main_cont_form_label">Email </label>
+            <input id="email" type="email" placeholder="Ingresa tu email" required> 
+
+            <label for="age" class="main_cont_form_label">Age(opcional) </label>
+            <input id="age" type="number" min="18"   placeholder="Escribe tu edad">
+
+            <label for="select1" class="main_cont_form_label">Which option best describes your current role</label>
+            <select id="select1">
+                <option disabled selected>Select current role</option>
+                <option value="1">Opcion1</option>
+                <option value="2">Opcion2</option>
+                <option value="3">Opcion3</option>
+            </select>
+
+            <label class="main_cont_form_label">Would you recommend freeCodeCamp to a friend?</label>
+            <label for="radio1"><input type="radio" name="radiox" id="radio1">Definitely</label>
+            
+            <label for="radio2"><input type="radio" name="radiox" id="radio2">Maybe</label>
+            
+            <label for="radio3"><input type="radio" name="radiox" id="radio3"> Not sure</label>
+
+            <label for="feature" class="main_cont_form_label">What is your favorite feature of freeCodeCamp?</label>
+            <select id="feature">
+                <option disabled selected>Select on opction</option>
+                <option value="1">Opcion1</option>
+                <option value="2">Opcion2</option>
+                <option value="3">Opcion3</option>
+            </select>
+
+            <label class="main_cont_form_label">What Would you like to see improved? (Check at that apply)</label>
+
+            <label><input type="checkbox" name="sa" > Front-end Projects</label>
+            
+            <label ><input type="checkbox" name="sa" >Back-end Projects</label>
+            
+            <label ><input type="checkbox" name="sa" >Data Visualization</label>
+            
+            <label ><input type="checkbox" name="sa" >Challenges</label>
+            
+            <label ><input type="checkbox" name="sa" >Open Source Community</label>
+            
+            <label ><input type="checkbox" name="sa" >Gitter help rooms</label>
+            
+            <label ><input type="checkbox" name="sa" >Videos</label>
+            
+            <label ><input type="checkbox" name="sa" >City Meetups</label>
+            
+            <label ><input type="checkbox" name="sa" >Wiki</label>
+            
+            <label ><input type="checkbox" name="sa" >Forum</label>
+            
+            <label ><input type="checkbox" name="sa" >Additional Courses</label>
+
+            <label for="area" class="main_cont_form_label" >Any comments or suggestions?</label>
+            <textarea name="" id="area" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+
+            <button class="main_cont_form_submit" type="submit">Enviar</button>
+
+        </form>
+    </main>
+    <footer>
+        <p>made in Danilo Navarro and Sammir Londoño</p>
+    </footer>
+    
+</body>
+</html>
